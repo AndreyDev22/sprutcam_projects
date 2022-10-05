@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #017bfe;
+}
+
+.header a {
+    font-size: 26px;
+    margin-left: 20px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}

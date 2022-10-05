@@ -1,0 +1,57 @@
+.title {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.title h1 {
+    margin-right: 40px;
+}
+
+.title Button {
+    height: 40px;
+}
+
+.details_container {
+    padding: 0px 40px 40px 40px;
+}
+
+.image {
+    margin-right: 50px;
+}
+
+.details_content {
+    display: flex;
+}
+
+.axes,
+.tool_type,
+.operation_type {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.axes h3,
+.tool_type h3,
+.operation_type h3 {
+    margin-top: 0;
+}
+
+.name_machine,
+.time_load {
+    margin-right: 50px;
+}
+
+.name_machine h3,
+.time_load h3 {
+    margin-top: 0;
+}
+
+.name_machine h4,
+.time_load h4 {
+    font-weight: 200;
+    font-size: 15px;
+    text-transform: uppercase;
+}

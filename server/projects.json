@@ -1,0 +1,4306 @@
+{
+    "content": [
+    {
+    "id": 1,
+    "name": "Hanwha",
+    "camVersion": "SprutCAM Project File Ver 14 b 0.0 Revision 99999 ",
+    "timestamp": 1663061001414,
+    "machine": {
+    "id": 1,
+    "guid": "{d2aa7fc0-c5de-434b-962b-627561469c32}",
+    "name": "hanwha 32ii",
+    "comment": "none",
+    "group": "lathemilling",
+    "machineStateParameterList": [
+    {
+    "id": 1,
+    "scId": "axisx1pos",
+    "caption": "axisx1pos",
+    "address": "x1",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 2,
+    "scId": "axisy1pos",
+    "caption": "axisy1pos",
+    "address": "y1",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 3,
+    "scId": "axisz1pos",
+    "caption": "axisz1pos",
+    "address": "z1",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 4,
+    "scId": "axisx2pos",
+    "caption": "axisx2pos",
+    "address": "x2",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 5,
+    "scId": "axisy2pos",
+    "caption": "axisy2pos",
+    "address": "y2",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 6,
+    "scId": "axisz2pos",
+    "caption": "axisz2pos",
+    "address": "z2",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 7,
+    "scId": "axisc1pos",
+    "caption": "axisc1pos",
+    "address": "c1",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 8,
+    "scId": "axisc2pos",
+    "caption": "axisc2pos",
+    "address": "c2",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 1,
+    "toolType": "",
+    "diameter": "",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 2,
+    "toolType": "spherical",
+    "diameter": "2",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 3,
+    "toolType": "",
+    "diameter": "",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 4,
+    "toolType": "gripper",
+    "diameter": "3.3",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 5,
+    "toolType": "",
+    "diameter": "",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 6,
+    "toolType": "",
+    "diameter": "",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 7,
+    "toolType": "",
+    "diameter": "",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 8,
+    "toolType": "",
+    "diameter": "",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 9,
+    "toolType": "",
+    "diameter": "",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 10,
+    "toolType": "drill",
+    "diameter": "6",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 1,
+    "name": "bar feeding 1",
+    "guid": "{d011c80d-10ab-4bda-be58-48be9b6d31d0}",
+    "type": "tstbarfeeding",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 2,
+    "name": "od roughing 1",
+    "guid": "{8f776a25-cd8b-478a-bf90-189395154bca}",
+    "type": "tlatheodturning",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 3,
+    "name": "pick-and-place for lathes 1",
+    "guid": "{7b063d75-9198-4f83-a43c-da74638a2255}",
+    "type": "tstturnpnp",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 4,
+    "name": "od roughing 2",
+    "guid": "{8f776a25-cd8b-478a-bf90-189395154bca}",
+    "type": "tlatheodturning",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 5,
+    "name": "od grooving 1",
+    "guid": "{a8d6a75d-0f28-41c7-96f8-c97a14d5e904}",
+    "type": "tlatheodgrooving",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 6,
+    "name": "pick-and-place for lathes 2",
+    "guid": "{7b063d75-9198-4f83-a43c-da74638a2255}",
+    "type": "tstturnpnp",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 7,
+    "name": "od roughing 3",
+    "guid": "{8f776a25-cd8b-478a-bf90-189395154bca}",
+    "type": "tlatheodturning",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 8,
+    "name": "od grooving 2",
+    "guid": "{a8d6a75d-0f28-41c7-96f8-c97a14d5e904}",
+    "type": "tlatheodgrooving",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 9,
+    "name": "sub spindle working 1",
+    "guid": "{7b063d75-9198-4f83-a43c-da74638a2255}",
+    "type": "tstturnpnp",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 10,
+    "name": "od roughing 4",
+    "guid": "{8f776a25-cd8b-478a-bf90-189395154bca}",
+    "type": "tlatheodturning",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 11,
+    "name": "lathe part-off 1",
+    "guid": "{675807ed-47d7-47dd-ad74-b67af9e6b1b3}",
+    "type": "tlathepartoff",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 12,
+    "name": "mtm take over 1",
+    "guid": "{a84a7413-64ca-4c8d-8137-1334b5fc6d00}",
+    "type": "tsttakeovermtm",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 13,
+    "name": "id roughing 1",
+    "guid": "{350854d7-5081-4b30-be76-f0b8a188edc2}",
+    "type": "tlatheidturning",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 14,
+    "name": "lathe hole machining 1",
+    "guid": "{db5400f8-e67c-43dc-b2ec-35dfc724be57}",
+    "type": "latheholemachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 2,
+    "name": "Tail",
+    "camVersion": "SprutCAM Project File Ver 16 b 0.4 Revision dev.50",
+    "timestamp": 1663061022280,
+    "machine": {
+    "id": 2,
+    "guid": "{19f5a319-5096-409d-a43b-6ab06001c2b8}",
+    "name": "vht800",
+    "comment": "800vht",
+    "group": "lathemilling",
+    "machineStateParameterList": [
+    {
+    "id": 9,
+    "scId": "axisypos",
+    "caption": "axis y position",
+    "address": "y",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 10,
+    "scId": "axisxpos",
+    "caption": "axis x position",
+    "address": "x",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 11,
+    "scId": "axiszpos",
+    "caption": "axis z position",
+    "address": "z",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 12,
+    "scId": "axisapos",
+    "caption": "axis a position",
+    "address": "a",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 13,
+    "scId": "axiscpos",
+    "caption": "axis c position",
+    "address": "c",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 14,
+    "scId": "axisspos",
+    "caption": "axis s position",
+    "address": "s",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 15,
+    "scId": "abrake",
+    "caption": "head (a) brake",
+    "address": "abrake",
+    "group": "other",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 16,
+    "scId": "cbrake",
+    "caption": "table(c) brake",
+    "address": "cbrake",
+    "group": "other",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 17,
+    "scId": "sbrake",
+    "caption": "spindle(s) brake",
+    "address": "sbrake",
+    "group": "other",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 11,
+    "toolType": "",
+    "diameter": "",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 12,
+    "toolType": "torus",
+    "diameter": "20",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 13,
+    "toolType": "endmill",
+    "diameter": "20",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 14,
+    "toolType": "drill",
+    "diameter": "24",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 15,
+    "toolType": "drill",
+    "diameter": "25",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 16,
+    "toolType": "drill",
+    "diameter": "25",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 17,
+    "toolType": "drill",
+    "diameter": "20.567",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 18,
+    "toolType": "threadmill",
+    "diameter": "[properties.shapetool(0).parameters(d)]",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 19,
+    "toolType": "",
+    "diameter": "",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 20,
+    "toolType": "",
+    "diameter": "",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 21,
+    "toolType": "",
+    "diameter": "",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 22,
+    "toolType": "",
+    "diameter": "",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 15,
+    "name": "lathe facing",
+    "guid": "{068d76d9-6eac-4cab-9cb6-728291ba7579}",
+    "type": "tlathefacemachining",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 16,
+    "name": "od roughing",
+    "guid": "{8f776a25-cd8b-478a-bf90-189395154bca}",
+    "type": "tlatheodturning",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 17,
+    "name": "id finishing",
+    "guid": "{c5e5e042-5fa6-4884-8cf5-7e78abe9f323}",
+    "type": "tlatheidfinishing",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 18,
+    "name": "pocket 51",
+    "guid": "{525c24b3-b95b-4add-b192-2a81bd782f47}",
+    "type": "tst2dcontouringop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 19,
+    "name": "ellipsebyspiral",
+    "guid": "{525c24b3-b95b-4add-b192-2a81bd782f47}",
+    "type": "tst2dcontouringop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 20,
+    "name": "ellipsebyspiral2",
+    "guid": "{525c24b3-b95b-4add-b192-2a81bd782f47}",
+    "type": "tst2dcontouringop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 21,
+    "name": "rotary milling",
+    "guid": "{b78c2c23-b21f-4aa6-8230-8b0dc0f4b2ae}",
+    "type": "tstengraveop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 22,
+    "name": "throuhg slot",
+    "guid": "{525c24b3-b95b-4add-b192-2a81bd782f47}",
+    "type": "tst2dcontouringop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 23,
+    "name": "5ax_flank",
+    "guid": "{cde80ad4-eebe-484b-bc6f-3a551fc658ce}",
+    "type": "toolend5dmachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 24,
+    "name": "hole d24 5d",
+    "guid": "{b740fc75-9121-4c90-9b98-fab7ba75bc70}",
+    "type": "holemachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 25,
+    "name": "hole d25 5d",
+    "guid": "{b740fc75-9121-4c90-9b98-fab7ba75bc70}",
+    "type": "holemachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 26,
+    "name": "tapping 5d",
+    "guid": "{b740fc75-9121-4c90-9b98-fab7ba75bc70}",
+    "type": "holemachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 27,
+    "name": "deep drilling 5d",
+    "guid": "{b740fc75-9121-4c90-9b98-fab7ba75bc70}",
+    "type": "holemachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 28,
+    "name": "thread mill 5d",
+    "guid": "{b740fc75-9121-4c90-9b98-fab7ba75bc70}",
+    "type": "holemachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 3,
+    "name": "3+2",
+    "camVersion": "SprutCAM Project File Ver 14 b 0.0 Revision 99999 ",
+    "timestamp": 1663061158816,
+    "machine": {
+    "id": 3,
+    "guid": "{fb71e500-aeb3-4d17-a64b-a50b798a4fe9}",
+    "name": "deckel maho dmu70",
+    "comment": "with continues b axis",
+    "group": "milling",
+    "machineStateParameterList": [
+    {
+    "id": 18,
+    "scId": "axisxpos",
+    "caption": "axis x position",
+    "address": "x",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 19,
+    "scId": "axisypos",
+    "caption": "axis y position",
+    "address": "y",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 20,
+    "scId": "axiszpos",
+    "caption": "axis z position",
+    "address": "z",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 21,
+    "scId": "axisbpos",
+    "caption": "axis b position",
+    "address": "b",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 22,
+    "scId": "axiscpos",
+    "caption": "axis c position",
+    "address": "c",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 23,
+    "toolType": "endmill",
+    "diameter": "80",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 24,
+    "toolType": "endmill",
+    "diameter": "80",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 25,
+    "toolType": "drill",
+    "diameter": "20",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 26,
+    "toolType": "endmill",
+    "diameter": "20",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 27,
+    "toolType": "endmill",
+    "diameter": "80",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 28,
+    "toolType": "endmill",
+    "diameter": "80",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 29,
+    "toolType": "drill",
+    "diameter": "20",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 30,
+    "toolType": "endmill",
+    "diameter": "20",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 29,
+    "name": "top plane",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 30,
+    "name": "front side",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 31,
+    "name": "right side",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 32,
+    "name": "back side",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 33,
+    "name": "left side",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 34,
+    "name": "front holes",
+    "guid": "{b740fc75-9121-4c90-9b98-fab7ba75bc70}",
+    "type": "holemachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 35,
+    "name": "top holes",
+    "guid": "{b740fc75-9121-4c90-9b98-fab7ba75bc70}",
+    "type": "holemachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 36,
+    "name": "5d контур",
+    "guid": "{cde80ad4-eebe-484b-bc6f-3a551fc658ce}",
+    "type": "toolend5dmachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 37,
+    "name": "top plane",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 38,
+    "name": "front side",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 39,
+    "name": "right side",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 40,
+    "name": "back side",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 41,
+    "name": "left side",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 42,
+    "name": "front holes",
+    "guid": "{b740fc75-9121-4c90-9b98-fab7ba75bc70}",
+    "type": "holemachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 43,
+    "name": "top holes",
+    "guid": "{b740fc75-9121-4c90-9b98-fab7ba75bc70}",
+    "type": "holemachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 44,
+    "name": "5d контур",
+    "guid": "{cde80ad4-eebe-484b-bc6f-3a551fc658ce}",
+    "type": "toolend5dmachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 4,
+    "name": "FBM_3+2 Pocketing and drilling",
+    "camVersion": "SprutCAM Project File Ver 14 b 0.0 Revision 99999 ",
+    "timestamp": 1663061182742,
+    "machine": {
+    "id": 4,
+    "guid": "{021e5610-31e1-478d-8c93-74891950db25}",
+    "name": "leader",
+    "comment": "leader",
+    "group": "milling",
+    "machineStateParameterList": [
+    {
+    "id": 23,
+    "scId": "axisxpos",
+    "caption": "axis x position",
+    "address": "x",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 24,
+    "scId": "axisypos",
+    "caption": "axis y position",
+    "address": "y",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 25,
+    "scId": "axiszpos",
+    "caption": "axis z position",
+    "address": "z",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 26,
+    "scId": "axisapos",
+    "caption": "axis a position",
+    "address": "a",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 27,
+    "scId": "axiscpos",
+    "caption": "axis c position",
+    "address": "c",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 28,
+    "scId": "lunetpos",
+    "caption": "lunette position",
+    "address": "l",
+    "group": "other",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 29,
+    "scId": "lunetstate",
+    "caption": "lunette state",
+    "address": "ls",
+    "group": null,
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 30,
+    "scId": "tailstockpos",
+    "caption": "tailstock position",
+    "address": "ts",
+    "group": "other",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 31,
+    "scId": "pinolstate",
+    "caption": "pinole state",
+    "address": "ps",
+    "group": null,
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 32,
+    "scId": "clampjawpos",
+    "caption": "clamp jaw position",
+    "address": "clj",
+    "group": null,
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 33,
+    "scId": "manualaxisapos",
+    "caption": "manual axis a pos",
+    "address": "manuaa",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 34,
+    "scId": "manualaxiscpos",
+    "caption": "manual axis c pos",
+    "address": "manualc",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 35,
+    "scId": "manualjawpos",
+    "caption": "manual jaw pos",
+    "address": "manualjaws",
+    "group": null,
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 36,
+    "scId": "anglespindleapos",
+    "caption": "angle spindle a pos",
+    "address": "anglespindleapos",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 37,
+    "scId": "anglespindlejawpos",
+    "caption": "angle spindle jaw pos",
+    "address": "anglespindlejaw",
+    "group": "other",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 31,
+    "toolType": "torus",
+    "diameter": "20",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 32,
+    "toolType": "drill",
+    "diameter": "15",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 33,
+    "toolType": "drill",
+    "diameter": "25",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 45,
+    "name": "roughing waterline1",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 46,
+    "name": "roughing waterline2",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 47,
+    "name": "roughing waterline3",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 48,
+    "name": "roughing waterline4",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 49,
+    "name": "roughing waterline5",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 50,
+    "name": "roughing waterline6",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 51,
+    "name": "hole machining1",
+    "guid": "{b740fc75-9121-4c90-9b98-fab7ba75bc70}",
+    "type": "holemachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 52,
+    "name": "hole machining2",
+    "guid": "{b740fc75-9121-4c90-9b98-fab7ba75bc70}",
+    "type": "holemachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 5,
+    "name": "FBM_3+2 Prismatic part",
+    "camVersion": "SprutCAM Project File Ver 14 b 0.0 Revision 99999 ",
+    "timestamp": 1663061202886,
+    "machine": {
+    "id": 5,
+    "guid": "{8ec6f558-52df-4e77-aab1-809c35f68e6d}",
+    "name": "hermle800",
+    "comment": "hermle800",
+    "group": "milling",
+    "machineStateParameterList": [
+    {
+    "id": 38,
+    "scId": "axisxpos",
+    "caption": "axis x position",
+    "address": "x",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 39,
+    "scId": "axisypos",
+    "caption": "axis y position",
+    "address": "y",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 40,
+    "scId": "axiszpos",
+    "caption": "axis z position",
+    "address": "z",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 41,
+    "scId": "axisapos",
+    "caption": "axis a position",
+    "address": "a",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 42,
+    "scId": "axiscpos",
+    "caption": "axis c position",
+    "address": "c",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 34,
+    "toolType": "endmill",
+    "diameter": "16",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 35,
+    "toolType": "endmill",
+    "diameter": "10",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 36,
+    "toolType": "endmill",
+    "diameter": "16",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 37,
+    "toolType": "endmill",
+    "diameter": "10",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 53,
+    "name": "roughing waterline",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 54,
+    "name": "roughing waterline2",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 55,
+    "name": "roughing waterline3",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 56,
+    "name": "finishing waterline",
+    "guid": "{424231ff-2a6f-425a-bcde-a6f9b5d4d172}",
+    "type": "tstfinishingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 57,
+    "name": "roughing waterline",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 58,
+    "name": "roughing waterline2",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 59,
+    "name": "roughing waterline3",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 60,
+    "name": "finishing waterline",
+    "guid": "{424231ff-2a6f-425a-bcde-a6f9b5d4d172}",
+    "type": "tstfinishingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 6,
+    "name": "Check holder",
+    "camVersion": "SprutCAM Project File Ver 16 b 0.4 Revision dev.91",
+    "timestamp": 1663061229197,
+    "machine": {
+    "id": 6,
+    "guid": "{8ec6f558-52df-4e77-aab1-809c35f68e6d}",
+    "name": "hermle800",
+    "comment": "hermle800",
+    "group": "milling",
+    "machineStateParameterList": [
+    {
+    "id": 43,
+    "scId": "axisxpos",
+    "caption": "axis x position",
+    "address": "x",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 44,
+    "scId": "axisypos",
+    "caption": "axis y position",
+    "address": "y",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 45,
+    "scId": "axiszpos",
+    "caption": "axis z position",
+    "address": "z",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 46,
+    "scId": "axisapos",
+    "caption": "axis a position",
+    "address": "a",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 47,
+    "scId": "axiscpos",
+    "caption": "axis c position",
+    "address": "c",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 38,
+    "toolType": "endmill",
+    "diameter": "12",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 39,
+    "toolType": "spherical",
+    "diameter": "6",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 61,
+    "name": "roughing waterline",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 62,
+    "name": "roughing waterline2",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 63,
+    "name": "roughing waterline3",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 64,
+    "name": "roughing waterline4",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 65,
+    "name": "roughing waterline5",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 66,
+    "name": "finishing optimized plane",
+    "guid": "{1c86ce71-94ab-41c7-a60a-4665549cc4c2}",
+    "type": "tstcrisscrossplaneop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 67,
+    "name": "finishing optimized plane2",
+    "guid": "{1c86ce71-94ab-41c7-a60a-4665549cc4c2}",
+    "type": "tstcrisscrossplaneop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 68,
+    "name": "finishing optimized plane3",
+    "guid": "{1c86ce71-94ab-41c7-a60a-4665549cc4c2}",
+    "type": "tstcrisscrossplaneop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 69,
+    "name": "finishing optimized plane4",
+    "guid": "{1c86ce71-94ab-41c7-a60a-4665549cc4c2}",
+    "type": "tstcrisscrossplaneop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 70,
+    "name": "finishing optimized plane5",
+    "guid": "{1c86ce71-94ab-41c7-a60a-4665549cc4c2}",
+    "type": "tstcrisscrossplaneop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 7,
+    "name": "Corners cleanup",
+    "camVersion": "SprutCAM Project File Ver 14 b 0.0 Revision 99999 ",
+    "timestamp": 1663061293533,
+    "machine": {
+    "id": 7,
+    "guid": "{ae04da94-187b-46ce-b52b-b0b3d19106d3}",
+    "name": "slovtos",
+    "comment": "slovtos",
+    "group": "milling",
+    "machineStateParameterList": [
+    {
+    "id": 48,
+    "scId": "axisxpos",
+    "caption": "axis x position",
+    "address": "x",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 49,
+    "scId": "axisypos",
+    "caption": "axis y position",
+    "address": "y",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 50,
+    "scId": "axiszpos",
+    "caption": "axis z position",
+    "address": "z",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 51,
+    "scId": "axisapos",
+    "caption": "axis a position",
+    "address": "a",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 52,
+    "scId": "axiscpos",
+    "caption": "axis a position",
+    "address": "c",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 53,
+    "scId": "tablepos",
+    "caption": "rotary table position",
+    "address": "xx",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 54,
+    "scId": "tailxpos",
+    "caption": "tailstock x",
+    "address": "tx",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 55,
+    "scId": "tailzpos",
+    "caption": "tailstock z",
+    "address": "tz",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 40,
+    "toolType": "endmill",
+    "diameter": "14",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 41,
+    "toolType": "spherical",
+    "diameter": "20",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 42,
+    "toolType": "spherical",
+    "diameter": "10",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 71,
+    "name": "roughing waterline",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 72,
+    "name": "scallop",
+    "guid": "{b03c75fe-626c-40b7-a52f-93808ca39a95}",
+    "type": "tstscallopop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 73,
+    "name": "corners cleanup",
+    "guid": "{f78910e4-1306-4425-b694-bb16b4f7a6a3}",
+    "type": "tstcornerrestmachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 8,
+    "name": "Electrode",
+    "camVersion": "SprutCAM Project File Ver 14 b 0.0 Revision 99999 ",
+    "timestamp": 1663061322536,
+    "machine": {
+    "id": 8,
+    "guid": "{0611dff8-66fa-4b9a-a131-a784fee0a258}",
+    "name": "mikron vce600 pro (3-axis)",
+    "comment": "mikron vce600 pro (3-axis)",
+    "group": "milling",
+    "machineStateParameterList": [
+    {
+    "id": 56,
+    "scId": "axisxpos",
+    "caption": "x axis position",
+    "address": "x",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 57,
+    "scId": "axisypos",
+    "caption": "y axis position",
+    "address": "y",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 58,
+    "scId": "axiszpos",
+    "caption": "z axis position",
+    "address": "z",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 43,
+    "toolType": "torus",
+    "diameter": "4",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 44,
+    "toolType": "torus",
+    "diameter": "3",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 45,
+    "toolType": "torus",
+    "diameter": "2",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 46,
+    "toolType": "torus",
+    "diameter": "0.5",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 47,
+    "toolType": "spherical",
+    "diameter": "0.5",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 74,
+    "name": "2d contoring",
+    "guid": "{525c24b3-b95b-4add-b192-2a81bd782f47}",
+    "type": "tst2dcontouringop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 75,
+    "name": "roughing waterline1",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 76,
+    "name": "finishing waterline",
+    "guid": "{424231ff-2a6f-425a-bcde-a6f9b5d4d172}",
+    "type": "tstfinishingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 77,
+    "name": "roughing waterline2",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 78,
+    "name": "finishing optimized plane",
+    "guid": "{1c86ce71-94ab-41c7-a60a-4665549cc4c2}",
+    "type": "tstcrisscrossplaneop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 9,
+    "name": "FBM_Job zone finishing",
+    "camVersion": "SprutCAM Project File Ver 14 b 0.0 Revision 99999 ",
+    "timestamp": 1663061369387,
+    "machine": {
+    "id": 9,
+    "guid": "{66ab1e55-d846-4527-9ba0-baab0857f9d2}",
+    "name": "microcut vm1300",
+    "comment": "microcut vm1300",
+    "group": "milling",
+    "machineStateParameterList": [
+    {
+    "id": 59,
+    "scId": "axisxpos",
+    "caption": "axis x position",
+    "address": "x",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 60,
+    "scId": "axisypos",
+    "caption": "axis y position",
+    "address": "y",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 61,
+    "scId": "axiszpos",
+    "caption": "axis z position",
+    "address": "z",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 48,
+    "toolType": "endmill",
+    "diameter": "30",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 49,
+    "toolType": "spherical",
+    "diameter": "20",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 79,
+    "name": "roughing waterline",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 80,
+    "name": "scallop",
+    "guid": "{b03c75fe-626c-40b7-a52f-93808ca39a95}",
+    "type": "tstscallopop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 11,
+    "name": "Flat_Land",
+    "camVersion": "SprutCAM Project File Ver 14 b 0.0 Revision 99999 ",
+    "timestamp": 1663061500078,
+    "machine": {
+    "id": 11,
+    "guid": "{0611dff8-66fa-4b9a-a131-a784fee0a258}",
+    "name": "mikron vce600 pro (3-axis)",
+    "comment": "mikron vce600 pro (3-axis)",
+    "group": "milling",
+    "machineStateParameterList": [
+    {
+    "id": 76,
+    "scId": "axisxpos",
+    "caption": "x axis position",
+    "address": "x",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 77,
+    "scId": "axisypos",
+    "caption": "y axis position",
+    "address": "y",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 78,
+    "scId": "axiszpos",
+    "caption": "z axis position",
+    "address": "z",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 54,
+    "toolType": "endmill",
+    "diameter": "50",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 55,
+    "toolType": "torus",
+    "diameter": "16",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 56,
+    "toolType": "spherical",
+    "diameter": "16",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 57,
+    "toolType": "torus",
+    "diameter": "30",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 89,
+    "name": "face milling",
+    "guid": "{9f01e1a0-6f3e-4c7a-9c52-9a024ced54ff}",
+    "type": "tstfacemillingop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 90,
+    "name": "roughing waterline",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 91,
+    "name": "finishing plane",
+    "guid": "{150332d8-bb7b-47e4-a78d-6d06deafa9be}",
+    "type": "tstfinishingplaneop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 92,
+    "name": "3d helical",
+    "guid": "{9d9c82b9-a393-45a7-b001-6d9e455e597b}",
+    "type": "tsthelicalop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 93,
+    "name": "flat land finishing",
+    "guid": "{d958fa48-67ea-4ffb-8320-a00a2863b6e5}",
+    "type": "tstflatlandfinishingop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 12,
+    "name": "HighSpeed",
+    "camVersion": "SprutCAM Project File Ver 14 b 0.0 Revision 99999 ",
+    "timestamp": 1663061531241,
+    "machine": {
+    "id": 12,
+    "guid": "{66ab1e55-d846-4527-9ba0-baab0857f9d2}",
+    "name": "microcut vm1300",
+    "comment": "microcut vm1300",
+    "group": "milling",
+    "machineStateParameterList": [
+    {
+    "id": 79,
+    "scId": "axisxpos",
+    "caption": "axis x position",
+    "address": "x",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 80,
+    "scId": "axisypos",
+    "caption": "axis y position",
+    "address": "y",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 81,
+    "scId": "axiszpos",
+    "caption": "axis z position",
+    "address": "z",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 58,
+    "toolType": "endmill",
+    "diameter": "12",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 94,
+    "name": "adaptive roughing",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 95,
+    "name": "adaptive roughing moduleworks 1",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 96,
+    "name": "high speed roughing - deep hpc 1",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 14,
+    "name": "Plate",
+    "camVersion": "SprutCAM Project File Ver 16 b 0.4 Revision dev.50",
+    "timestamp": 1663071336816,
+    "machine": null,
+    "status": "Draft",
+    "tools": [ ],
+    "operations": [
+    {
+    "id": 97,
+    "name": "wire edm 2d contouring (coreless pocketing)",
+    "guid": "{da77b75e-d219-47c7-8f77-025398bb7978}",
+    "type": "wireedm2dcontouringop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 98,
+    "name": "wire edm 2d contouring",
+    "guid": "{da77b75e-d219-47c7-8f77-025398bb7978}",
+    "type": "wireedm2dcontouringop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 99,
+    "name": "wire edm 4d contouring",
+    "guid": "{6ae78c16-e5f8-49d2-a7d6-e565a0c716f6}",
+    "type": "wireedm4dcontouringop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 15,
+    "name": "edm_4D",
+    "camVersion": "SprutCAM Project File Ver 16 b 0.4 Revision dev.10",
+    "timestamp": 1663071412302,
+    "machine": null,
+    "status": "Draft",
+    "tools": [ ],
+    "operations": [
+    {
+    "id": 100,
+    "name": "wire edm 4d contouring2",
+    "guid": "{6ae78c16-e5f8-49d2-a7d6-e565a0c716f6}",
+    "type": "wireedm4dcontouringop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 101,
+    "name": "wire edm 4d contouring3",
+    "guid": "{6ae78c16-e5f8-49d2-a7d6-e565a0c716f6}",
+    "type": "wireedm4dcontouringop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 16,
+    "name": "25mm bar solid",
+    "camVersion": "SprutCAM Project File Ver C-2803/15 b 0.2 Revision",
+    "timestamp": 1663071436970,
+    "machine": {
+    "id": 13,
+    "guid": "{01cbd9b4-baef-48c9-8fb9-81c912c8c05d}",
+    "name": "abb irb2400-16 laser universal",
+    "comment": "none",
+    "group": "unknown",
+    "machineStateParameterList": [
+    {
+    "id": 82,
+    "scId": "axisa1pos",
+    "caption": "axis a1 position",
+    "address": "a1",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 83,
+    "scId": "axisa2pos",
+    "caption": "axis a2 position",
+    "address": "a2",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 84,
+    "scId": "axisa3pos",
+    "caption": "axis a3 position",
+    "address": "a3",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 85,
+    "scId": "axisa4pos",
+    "caption": "axis a4 position",
+    "address": "a4",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 86,
+    "scId": "axisa5pos",
+    "caption": "axis a5 position",
+    "address": "a5",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 87,
+    "scId": "axisa6pos",
+    "caption": "axis a6 position",
+    "address": "a6",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 88,
+    "scId": null,
+    "caption": null,
+    "address": "e5",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 59,
+    "toolType": "endmill",
+    "diameter": "1",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 102,
+    "name": "curve cladding",
+    "guid": "{50327f17-31b8-4644-b0ee-1fb218caa49b}",
+    "type": "tstcurvecladdingop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 17,
+    "name": "Blade growing",
+    "camVersion": "SprutCAM Project File Ver 14 b 0.0 Revision 99999 ",
+    "timestamp": 1663071463505,
+    "machine": {
+    "id": 14,
+    "guid": "{1e31616a-69a0-41e8-a7a9-d7d4a79bc1cd}",
+    "name": "fanuc arcmate0ib",
+    "comment": "none",
+    "group": "unknown",
+    "machineStateParameterList": [
+    {
+    "id": 89,
+    "scId": "axisa1pos",
+    "caption": "axis a1 position",
+    "address": "a1",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 90,
+    "scId": "axisa2pos",
+    "caption": "axis a2 position",
+    "address": "a2",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 91,
+    "scId": "axisa3pos",
+    "caption": "axis a3 position",
+    "address": "a3",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 92,
+    "scId": "axisa4pos",
+    "caption": "axis a4 position",
+    "address": "a4",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 93,
+    "scId": "axisa5pos",
+    "caption": "axis a5 position",
+    "address": "a5",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 94,
+    "scId": "axisa6pos",
+    "caption": "axis a6 position",
+    "address": "a6",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 95,
+    "scId": null,
+    "caption": null,
+    "address": null,
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 96,
+    "scId": null,
+    "caption": null,
+    "address": null,
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 60,
+    "toolType": "endmill",
+    "diameter": "2",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 61,
+    "toolType": "endmill",
+    "diameter": "2",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 103,
+    "name": "cladding 5d (inside)",
+    "guid": "{2fe346a1-f2d8-4a67-92e7-23812d252e37}",
+    "type": "tstcladding5dop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 104,
+    "name": "cladding 5d (outside)",
+    "guid": "{2fe346a1-f2d8-4a67-92e7-23812d252e37}",
+    "type": "tstcladding5dop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 18,
+    "name": "EJE TRAYECTORIAS RECTAS",
+    "camVersion": "SprutCAM Project File Ver 16 b 0.0 Revision 99999 ",
+    "timestamp": 1663071484125,
+    "machine": {
+    "id": 15,
+    "guid": "{01cbd9b4-baef-48c9-8fb9-81c912c8c05d}",
+    "name": "abb irb2400-16 laser universal",
+    "comment": "none",
+    "group": "unknown",
+    "machineStateParameterList": [
+    {
+    "id": 97,
+    "scId": "axisa1pos",
+    "caption": "axis a1 position",
+    "address": "a1",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 98,
+    "scId": "axisa2pos",
+    "caption": "axis a2 position",
+    "address": "a2",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 99,
+    "scId": "axisa3pos",
+    "caption": "axis a3 position",
+    "address": "a3",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 100,
+    "scId": "axisa4pos",
+    "caption": "axis a4 position",
+    "address": "a4",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 101,
+    "scId": "axisa5pos",
+    "caption": "axis a5 position",
+    "address": "a5",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 102,
+    "scId": "axisa6pos",
+    "caption": "axis a6 position",
+    "address": "a6",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 103,
+    "scId": null,
+    "caption": null,
+    "address": "e5",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 62,
+    "toolType": "endmill",
+    "diameter": "2.45",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 105,
+    "name": "cladding 3d",
+    "guid": "{c8a88d2f-e355-4295-9e55-8e667940b488}",
+    "type": "tstcladding3dop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 19,
+    "name": "2 robots-cutting",
+    "camVersion": "SprutCAM Project File Ver 15 b 0.2 Revision dev.37",
+    "timestamp": 1663071556900,
+    "machine": {
+    "id": 16,
+    "guid": "{257126d4-0703-4812-8f85-95d444874430}",
+    "name": "kuka kr150 double",
+    "comment": "none",
+    "group": "unknown",
+    "machineStateParameterList": [
+    {
+    "id": 104,
+    "scId": "axisa1pos",
+    "caption": "axis a1 position",
+    "address": "a1",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 105,
+    "scId": "axisa2pos",
+    "caption": "axis a2 position",
+    "address": "a2",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 106,
+    "scId": "axisa3pos",
+    "caption": "axis a3 position",
+    "address": "a3",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 107,
+    "scId": "axisa4pos",
+    "caption": "axis a4 position",
+    "address": "a4",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 108,
+    "scId": "axisa5pos",
+    "caption": "axis a5 position",
+    "address": "a5",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 109,
+    "scId": "axisa6pos",
+    "caption": "axis a6 position",
+    "address": "a6",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 110,
+    "scId": "axisa1pos2",
+    "caption": "axis a2.1 position",
+    "address": "a1_2",
+    "group": null,
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 111,
+    "scId": "axisa2pos2",
+    "caption": "axis a2.2 position",
+    "address": "a2_2",
+    "group": null,
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 112,
+    "scId": "axisa3pos2",
+    "caption": "axis a2.3 position",
+    "address": "a3_2",
+    "group": null,
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 113,
+    "scId": "axisa4pos2",
+    "caption": "axis a2.4 position",
+    "address": "a4_2",
+    "group": null,
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 114,
+    "scId": "axisa5pos2",
+    "caption": "axis a2.5 position",
+    "address": "a5_2",
+    "group": null,
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 115,
+    "scId": "axisa6pos2",
+    "caption": "axis a2.6 position",
+    "address": "a6_2",
+    "group": null,
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 116,
+    "scId": "axisxpos2",
+    "caption": "axis x2 position",
+    "address": "axisx2",
+    "group": null,
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 117,
+    "scId": "axisypos2",
+    "caption": "axis y2 position",
+    "address": "axisy2",
+    "group": null,
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 118,
+    "scId": "axiszpos2",
+    "caption": "axis z2 position",
+    "address": "axisz2",
+    "group": null,
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 63,
+    "toolType": "cutter",
+    "diameter": "1.35",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 64,
+    "toolType": "",
+    "diameter": "",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 65,
+    "toolType": "",
+    "diameter": "",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 66,
+    "toolType": "",
+    "diameter": "",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 67,
+    "toolType": "",
+    "diameter": "",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 68,
+    "toolType": "endmill",
+    "diameter": "50",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 106,
+    "name": "5d cutting",
+    "guid": "{2cfe0138-8649-4d1a-b994-339b13f622a5}",
+    "type": "tcutting5dop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 20,
+    "name": "Statue",
+    "camVersion": "SprutCAM Project File Ver 16 b 0.4 Revision dev.50",
+    "timestamp": 1663071623042,
+    "machine": {
+    "id": 17,
+    "guid": "{05bb597f-8fde-4aac-b943-84fe6e5caf70}",
+    "name": "kuka kr150 180 210 240-2",
+    "comment": "none",
+    "group": "unknown",
+    "machineStateParameterList": [
+    {
+    "id": 119,
+    "scId": "axisa1pos",
+    "caption": "axis a1 position",
+    "address": "a1",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 120,
+    "scId": "axisa2pos",
+    "caption": "axis a2 position",
+    "address": "a2",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 121,
+    "scId": "axisa3pos",
+    "caption": "axis a3 position",
+    "address": "a3",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 122,
+    "scId": "axisa4pos",
+    "caption": "axis a4 position",
+    "address": "a4",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 123,
+    "scId": "axisa5pos",
+    "caption": "axis a5 position",
+    "address": "a5",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 124,
+    "scId": "axisa6pos",
+    "caption": "axis a6 position",
+    "address": "a6",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 125,
+    "scId": null,
+    "caption": null,
+    "address": "e1",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 126,
+    "scId": null,
+    "caption": null,
+    "address": "e2",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 69,
+    "toolType": "spherical",
+    "diameter": "40",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 70,
+    "toolType": "spherical",
+    "diameter": "10",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 107,
+    "name": "roughing waterline",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 108,
+    "name": "roughing waterline2",
+    "guid": "{e5c01db3-7c68-4a93-be55-84e453fd8b8b}",
+    "type": "tstroughingwaterlineop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 109,
+    "name": "rotary machining",
+    "guid": "{40d59321-1e8d-4db8-929f-d1e355a9a008}",
+    "type": "rotarymachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 21,
+    "name": "Turbine Wheel",
+    "camVersion": "SprutCAM Project File Ver 16 b 0.0 Revision 99999 ",
+    "timestamp": 1663071740588,
+    "machine": {
+    "id": 18,
+    "guid": "{dfc2ba93-d761-4f2c-9ebc-e9812e135e1d}",
+    "name": "matsuura mam72 25v",
+    "comment": "with continues a,c axes",
+    "group": "milling",
+    "machineStateParameterList": [
+    {
+    "id": 127,
+    "scId": "axisypos",
+    "caption": "axis y position",
+    "address": "y",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 128,
+    "scId": "axisxpos",
+    "caption": "axis x position",
+    "address": "x",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 129,
+    "scId": "axiszpos",
+    "caption": "axis z position",
+    "address": "z",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 130,
+    "scId": "axisbpos",
+    "caption": "axis b position",
+    "address": "b",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 131,
+    "scId": "axiscpos",
+    "caption": "axis c position",
+    "address": "c",
+    "group": "rotaryaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Published",
+    "tools": [
+    {
+    "id": 71,
+    "toolType": "spherical",
+    "diameter": "10",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    },
+    {
+    "id": 72,
+    "toolType": "spherical",
+    "diameter": "5",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 110,
+    "name": "rotary roughing",
+    "guid": "{620674a6-b810-466e-a19e-631181d6f56d}",
+    "type": "roughingrotarymachiningop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 111,
+    "name": "finishing morph3",
+    "guid": "{ecb5c75a-e2f2-4f28-8895-6d59de2986ae}",
+    "type": "tstmorphop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 112,
+    "name": "finishing morph4",
+    "guid": "{ecb5c75a-e2f2-4f28-8895-6d59de2986ae}",
+    "type": "tstmorphop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 113,
+    "name": "finishing morph",
+    "guid": "{ecb5c75a-e2f2-4f28-8895-6d59de2986ae}",
+    "type": "tstmorphop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    },
+    {
+    "id": 114,
+    "name": "finishing morph2",
+    "guid": "{ecb5c75a-e2f2-4f28-8895-6d59de2986ae}",
+    "type": "tstmorphop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    },
+    {
+    "id": 22,
+    "name": "3D Letters engraving",
+    "camVersion": "SprutCAM Project File Ver 16 b 0.4 Revision dev.50",
+    "timestamp": 1663616078293,
+    "machine": {
+    "id": 19,
+    "guid": "{66ab1e55-d846-4527-9ba0-baab0857f9d2}",
+    "name": "microcut vm1300",
+    "comment": "microcut vm1300",
+    "group": "milling",
+    "machineStateParameterList": [
+    {
+    "id": 132,
+    "scId": "axisxpos",
+    "caption": "axis x position",
+    "address": "x",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 133,
+    "scId": "axisypos",
+    "caption": "axis y position",
+    "address": "y",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    },
+    {
+    "id": 134,
+    "scId": "axiszpos",
+    "caption": "axis z position",
+    "address": "z",
+    "group": "linearaxis",
+    "globalFilterFields": [
+    "id",
+    "scId",
+    "caption",
+    "address",
+    "group"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "guid",
+    "name",
+    "comment",
+    "group"
+    ]
+    },
+    "status": "Draft",
+    "tools": [
+    {
+    "id": 73,
+    "toolType": "trimangle",
+    "diameter": "3.5",
+    "globalFilterFields": [
+    "id",
+    "toolType",
+    "diameter"
+    ]
+    }
+    ],
+    "operations": [
+    {
+    "id": 115,
+    "name": "engraving",
+    "guid": "{b78c2c23-b21f-4aa6-8230-8b0dc0f4b2ae}",
+    "type": "tstengraveop",
+    "globalFilterFields": [
+    "id",
+    "name",
+    "guid",
+    "type"
+    ]
+    }
+    ],
+    "globalFilterFields": [
+    "id",
+    "name",
+    "camVersion",
+    "timestamp",
+    "status"
+    ]
+    }
+    ]
+}
